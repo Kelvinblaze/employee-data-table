@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .stable-alignment {
+    @apply tw-w-11/12 tw-m-auto;
+  }
+
+  @screen md {
+    .stable-alignment {
+      @apply tw-w-10/12 tw-m-auto;
+    }
+  }
+}
+
+.btn-primary {
+  @apply tw-bg-teal-700 hover:tw-bg-teal-900 tw-text-white tw-py-2 tw-px-4 tw-rounded-lg;
+}
+
+@layer components {
+  .custom-input {
+    @apply tw-p-2 tw-w-full tw-border-2  tw-rounded-lg placeholder:tw-text-gray-500 tw-text-gray-900 focus:tw-ring-2 focus:tw-ring-teal-600 focus:tw-outline-none  tw-bg-white;
+  }
+  .custom-text-input {
+    @apply tw-p-2 tw-w-full tw-border-2  tw-rounded-lg placeholder:tw-text-gray-500 tw-text-gray-900 focus:tw-ring-2 focus:tw-ring-teal-600 focus:tw-outline-none  tw-bg-white;
+  }
+
+  .custom-select {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-image: url("~/assets/images/icons/chevron-down.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    @apply tw-cursor-pointer tw-p-2 tw-w-full tw-border-2  tw-rounded-lg placeholder:tw-text-gray-300 tw-text-gray-500 focus:tw-ring-2 focus:tw-ring-teal-600 focus:tw-outline-none  tw-bg-white;
+  }
+
+  .custom-input:disabled,
+  .custom-text-input:disabled,
+  .custom-select:disabled {
+    @apply tw-cursor-not-allowed;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: lato;
+}
