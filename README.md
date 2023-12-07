@@ -1,6 +1,6 @@
-GitHub Repository:
+**GitHub Repository:**
 
-https://github.com/Kelvinblaze/employee-data-table
+[Github Repo](https://github.com/Kelvinblaze/employee-data-table)
 
 Instructions to Run Locally:
 
@@ -24,48 +24,48 @@ Open your browser and go to generated port from the terminal to view the applica
 
 Approach:
 
-Project Setup:
+**Project Setup:**
 
-Created a new Vue.js project using Vite: npm create vite@latest my-vue-app.
+- Created a new Vue.js project using Vite: npm create vite@latest my-vue-app.
 
-Set up the project structure and installed necessary dependencies.
+- Set up the project structure and installed necessary dependencies.
 
-Styling:
+**Styling:**
 
-Integrated Tailwind CSS for styling as per the provided requirements.
+- Integrated Tailwind CSS for styling as per the provided requirements.
 
-Used the Figma mockup as a reference to ensure the application is responsive.
+- Used the Figma mockup image as a reference to ensure the application is responsive.
 
-Data Fetching:
+**Data Fetching:**
 
-Utilized Vue Query and Directus SDK to fetch data from the provided Directus API endpoint.
+- Utilized Vue Query and Directus SDK to fetch data from the provided Directus API endpoint.
 
-Implemented error handling and loading state during data fetching.
+- Implemented error handling and loading state during data fetching.
 
-Displaying Data:
+**Displaying Data:**
 
-Designed components to display employee information based on the Figma mockup.
+- Designed components to display employee information based on the Figma mockup image.
 
-Ensured that the layout and styling match the provided design.
+- Ensured that the layout and styling match the provided design.
 
-Assumptions:
+**Assumptions:**
 
-Assumed that the provided Directus endpoint will always return data in the expected format.
+- Assumed that the provided Directus endpoint will always return data in the expected format.
 
-Assumed a constant structure for the employee data and did not account for potential variations.
+- Assumed a constant structure for the employee data and did not account for potential variations.
 
-Possible Improvements:
+**Possible Improvements:**
 
-Implement pagination for the employee list in case the dataset grows.
+- Implement pagination for the employee list in case the dataset grows.
 
-Enhance error handling to provide more meaningful error messages to the user.
+- Enhance error handling to provide more meaningful error messages to the user.
 
-Add unit tests to ensure the reliability of the application.
+- Add unit tests to ensure the reliability of the application.
 
-Optimize the application for better performance, especially when dealing with a large dataset.
+- Optimize the application for better performance, especially when dealing with a large dataset.
 
 Time Spent: [2-4 hours]
 
-Notes:
+**Notes:**
 
-Feel free to reach out if you have any questions or need further clarification. Thank you for the opportunity!
+*Feel free to reach out if you have any questions or need further clarification. Thank you for the opportunity!*
